@@ -1,8 +1,8 @@
 # SearchGeeks - 极客搜 聚合搜索平台
 
 > 前后端分离项目 By程序员Chic
-一行代码，无限可能！欢迎探索我的项目，喜欢请Star ⭐！
->
+> 
+>一行代码，无限可能！欢迎探索我的项目，喜欢请Star ⭐！
 
 ## 项目介绍
 
@@ -13,9 +13,11 @@
 👨🏻‍💻 企业也可以直接将项目的数据源接入搜索平台，复用同一套搜索后端，提升开发效率、降低系统维护成本。
 
 > 线上地址：[https://](https://github.com/ZZC-cc/SearchGeeks-frontend)xxxxxx.com(暂未上线)
-前端项目地址：[https://github.com/ZZC-cc/SearchGeeks-frontend](https://github.com/ZZC-cc/SearchGeeks-frontend)
-后端项目地址：[https://github.com/ZZC-cc/SearchGeeks-backend](https://github.com/ZZC-cc/SearchGeeks-backend)
+> 
+> 前端项目地址：[https://github.com/ZZC-cc/SearchGeeks-frontend](https://github.com/ZZC-cc/SearchGeeks-frontend)
 >
+> 后端项目地址：[https://github.com/ZZC-cc/SearchGeeks-backend](https://github.com/ZZC-cc/SearchGeeks-backend)
+
 
 ![https://github.com/ZZC-cc/SearchGeeks-backend/blob/master/doc/01-2post.png?raw=true](https://github.com/ZZC-cc/SearchGeeks-backend/blob/master/doc/01-2post.png?raw=true)
 
@@ -78,7 +80,7 @@ spring:
 
 ### OpenAI APIKey
 
-（2）修改 `application.yml` 的APIKey配置为你自己的：
+（2）修改 `application.yml` 的APIKey配置为你自己的(不使用可不加)：
 
 ```
 chatgpt:
