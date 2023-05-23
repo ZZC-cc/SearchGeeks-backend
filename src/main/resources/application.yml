@@ -1,6 +1,6 @@
 #OpenAPI-APIkey
 chatgpt:
-  apiKey: "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"
+  apiKey: "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"
 spring:
   application:
     name: springboot-init

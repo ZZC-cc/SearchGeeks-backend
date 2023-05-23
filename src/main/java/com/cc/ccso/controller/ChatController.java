@@ -7,11 +7,12 @@ import com.cc.ccso.openAPI.ChatGPT;
 import com.cc.ccso.openAPI.model.ChatCompletionRequest;
 import com.cc.ccso.openAPI.model.ChatCompletionResponse;
 import com.cc.ccso.service.ChatService;
-import com.cc.ccso.service.UserService;
 import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.support.ManagedList;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -31,13 +32,10 @@ public class ChatController {
 
     private ChatGPT chatGPT;
 
-    @Resource
-    private UserService userService;
-
-    private String apiKey = "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";
+    @Value("${chatgpt.apiKey}")
+    private String apiKey;
 
     private final static Gson GSON = new Gson();
-
 
 
     @PostMapping("/getChat")
